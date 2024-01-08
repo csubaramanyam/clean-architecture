@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/ldap/user?un=EXTERNALEMAIL"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "fname": "John",
+        "lname": "Doe",
+        "un": "jdoe",
+        "workEmail": "some@Other.com",
+        "departmentId": "2"
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
